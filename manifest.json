@@ -32,7 +32,7 @@
             "resources": [
                 "lib/ThreeHelper.umd.cjs",
                 "lib/style.css",
-                "lib/ThreeHelper.js"
+                "lib/main.js"
             ],
             "matches": [
                 "<all_urls>"

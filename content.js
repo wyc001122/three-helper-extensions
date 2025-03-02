@@ -20,7 +20,7 @@ function injectThreeHelper() {
 // 执行ThreeHelper函数
 function executeThreeHelperFunction() {
     const script = document.createElement('script');
-    script.src = chrome.runtime.getURL('lib/ThreeHelper.js');
+    script.src = chrome.runtime.getURL('lib/main.js');
     (document.head || document.documentElement).appendChild(script);
 
     // 执行后移除脚本标签
