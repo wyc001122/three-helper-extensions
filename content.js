@@ -14,7 +14,7 @@ function injectThreeHelper() {
     style.href = chrome.runtime.getURL('lib/style.css');
     (document.head || document.documentElement).appendChild(style);
 
-    console.log('[ThreeHelper] 脚本已注入');
+    console.log('[ThreeHelper] 已注入');
 }
 
 // 执行ThreeHelper函数
@@ -26,8 +26,8 @@ function executeThreeHelperFunction() {
     // 执行后移除脚本标签
     script.remove();
 
-    console.log('[ThreeHelper] 函数已执行');
-    return '🍊 ThreeHelper函数已执行';
+    console.log('[ThreeHelper] 已执行');
+    return '🍊 ThreeHelper已执行';
 }
 
 // 在页面加载时自动注入
